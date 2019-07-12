@@ -1,4 +1,0 @@
-mysql -u root -p
-ALTER USER 'root'@'localhost' IDENTIFIED BY 'qa123';
-CREATE USER 'w' IDENTIFIED WITH mysql_native_password BY 'qa123';
-GRANT ALL PRIVILEGES ON *.* TO 'liaozesong'@'%';
